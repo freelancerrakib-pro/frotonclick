@@ -53,7 +53,7 @@ img {
 }
 
 .web-name {
-  width: 50%;
+  width: 45%;
   float: left;
   height: 42px;
 }
@@ -64,7 +64,7 @@ img {
 }
 
 .chat-link {
-  width: 21%;
+  width: 16%;
   float: left;
   height: 17px;
   padding: 0px 10px;
@@ -163,7 +163,7 @@ img {
   padding-top: 5px;
   float: left;
   /* border: 1px solid; */
-  height: 35px;
+  height: 37px;
   background-color: #13385d;
   color: white;
   text-align: center;
