@@ -317,7 +317,7 @@ section.footer-menu {
 .menuwrapper {
   overflow: hidden;
 }
-.menuwrapper ul li {list-style: none;float: left;text-align: center;width: 79px;}
+.menuwrapper ul li {list-style: none;float: left;text-align: center;width: 78px;}
 
 .menuwrapper a {
     margin-right: 41px;
