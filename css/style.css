@@ -65,7 +65,7 @@ img {
 
 .chat-link {
   width: 124px;
-  float: left;
+  float: right;
   height: 17px;
   padding: 0px 10px;
   padding-top:20px;
@@ -134,7 +134,6 @@ img {
 .activitywrapper {
   overflow: hidden;
   width: 100%;
-  height: 36px;
   /* border: 1px solid; */
   box-shadow: 2px 1px 12px grey;
   border-radius: 3px;
