@@ -64,17 +64,17 @@ img {
 }
 
 .chat-link {
-  width: 90px;
-  float: left;
-  height: 17px;
-  padding: 0px 10px;
+  width: 102px;
+  float: right;
+  height: 20px;
   padding-top: 20px;
+  /* border: 1px solid; */
 }
 .chat-link a {
-  font-size: 14px;
+  font-size: 12px;
   text-decoration: none;
   color: black;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 
