@@ -134,6 +134,7 @@ img {
 .activitywrapper {
   overflow: hidden;
   width: 100%;
+  height: 36px;
   /* border: 1px solid; */
   box-shadow: 2px 1px 12px grey;
   border-radius: 3px;
