@@ -53,7 +53,7 @@ img {
 }
 
 .web-name {
-  width: 56%;
+  width: 50%;
   float: left;
   height: 42px;
 }
@@ -163,7 +163,7 @@ img {
   padding-top: 5px;
   float: left;
   /* border: 1px solid; */
-  height: 32px;
+  height: 35px;
   background-color: #13385d;
   color: white;
   text-align: center;
