@@ -64,17 +64,17 @@ img {
 }
 
 .chat-link {
-  width: 102px;
-  float: right;
-  height: 20px;
-  padding-top: 20px;
-  /* border: 1px solid; */
+  width: 16%;
+  float: left;
+  height: 17px;
+  padding: 0px 10px;
+  padding-top:20px;
 }
 .chat-link a {
-  font-size: 12px;
+  font-size: 14px;
   text-decoration: none;
   color: black;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 
@@ -182,11 +182,6 @@ img {
 }
 
 
-
-
-
-
-
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
@@ -212,7 +207,92 @@ img {
  height: 10px;
   width: 10px;
 }
+}
 
 @media only screen and (max-width: 500px) {
   .prev, .next,.text {font-size: 14px}
+}
+
+
+/*start bosing*/
+.row{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-01{
+  
+position: relative;
+  
+flex: 1;
+  
+max-width: 455px;
+  
+margin-top: 30px;
+  
+float: left;
+  
+height: 100px;
+  
+cursor: pointer;
+  
+border-radius: 5px;
+  
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.card-02{
+  
+  position: relative;
+  flex: 1;
+  max-width: 460px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width:800px){
+  .card-01{
+    flex: 100%;
+    max-width: 600px;
+  }
+
+  .card-02{
+    flex: 100%;
+    max-width: 600px;
+  }
+
+
+}
+      
+.service {
+  width: 185px;
+  float: left;
+  position: absolute;
+}
+
+.serviceicons {
+  width: 150px;
+  float: right;
+  margin-right: 28px;
+}
+.service a {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+  font-size: 13px;
+  display: block;
+  margin-top: 20%;
+}
+.serviceicons a{
+  font-size:40px;
+  color: orange;
+  display:block;
+  margin-top:24px;
+  float:right;
 }
