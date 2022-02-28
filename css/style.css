@@ -17,6 +17,7 @@ body{
 header.header-top {
   box-shadow: 0 0 8px 1px rgb(0 0 0 / 20%);
   padding-bottom: 12px;
+  
 }
 .mySlides {
     display: none;
@@ -31,7 +32,6 @@ img {
 .container {
   
   max-width: 90%;
-  position: relative;
   margin: auto;
 }
 /*start header*/
@@ -300,4 +300,59 @@ box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   display:block;
   margin-top:24px;
   float:right;
+}
+
+/*start footer*/
+section.footer-menu {
+  width: 100%;
+  height: 100%;
+  position: sticky;
+  background-color: white;
+  bottom: 0;
+  box-shadow: 0 0 8px 1px rgb(0 0 0 / 20%);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.menuwrapper {
+  overflow: hidden;
+}
+.menuwrapper ul li {list-style: none;float: left;text-align: center;width: 79px;}
+
+.menuwrapper a {
+    margin-right: 41px;
+    /* border: 1px solid; */
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    /* float: left; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.menuwrapper a:last-child{
+  margin-right: 0;
+}
+.menuwrapper li:last-child{
+  margin-right: 0;
+}
+.menu-icons {
+  text-align: center;
+}
+.menu-name {
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+@media (max-width:800px){
+  .menuwrapper{
+    flex: 100%;
+    max-width: 395px;
+  }
+
+
+}
+.menuwrapper a:hover{
+  
+  color:yellow;
 }
