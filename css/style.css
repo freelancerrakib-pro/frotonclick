@@ -23,6 +23,7 @@ header.header-top {
 }
 img {
     vertical-align: middle;
+    border-radius: 5px;
 }
 
 
@@ -64,7 +65,7 @@ img {
 }
 
 .chat-link {
-  width: 124px;
+  width: 86px;
   float: right;
   height: 17px;
   padding: 0px 10px;
@@ -126,7 +127,10 @@ img {
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-
+.dot-slider {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
 .active, .dot:hover {
   background-color: #13385d;
 }
@@ -134,9 +138,10 @@ img {
 .activitywrapper {
   overflow: hidden;
   width: 100%;
-  /* border: 1px solid; */
+  height: 37px;
   box-shadow: 2px 1px 12px grey;
   border-radius: 3px;
+
 }
 
 .lefttwo {
