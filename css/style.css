@@ -301,7 +301,46 @@ box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   margin-top:24px;
   float:right;
 }
+.two{
+  color:red;
+}
 
+section.missionhall {
+  padding-top: 20px;
+}
+.missionwrapper {
+  overflow: hidden;
+  height: 150px;
+  width: 100%;
+  
+  box-sizing: border-box;
+}
+
+section.missionhal {
+  padding-top: 20px;
+}
+
+.missionhall h3 {
+  
+  padding: 10px 10px;
+  font-size: 15px;
+}
+.box {
+  width: 47%;
+  height: 100%;
+  box-sizing: border-box;
+  float: left;
+  margin-right: 20px;
+}
+.box img {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  float: left;
+}
+.box:last-child{
+  margin-right: 0px;
+}
 /*start footer*/
 section.footer-menu {
   width: 100%;
@@ -312,6 +351,7 @@ section.footer-menu {
   box-shadow: 0 0 8px 1px rgb(0 0 0 / 20%);
   padding-top: 5px;
   padding-bottom: 5px;
+  margin-top: 50px;
 }
 
 .menuwrapper {
@@ -355,5 +395,6 @@ section.footer-menu {
 }
 .menuwrapper a:hover{
   
-  color:yellow;
+  color:red;
 }
+
