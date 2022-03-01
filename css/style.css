@@ -43,7 +43,6 @@ img {
   width: 12%;
   float: left;
   height: 42px;
-  margin-right: 10px;
 }
 
 
@@ -288,6 +287,7 @@ a{
   margin-top:24px;
   float:right;
   width: 60px;
+  height: 60px;
   text-align: center;
   border: 1px solid;
   border-radius: 35px;
