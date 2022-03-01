@@ -11,13 +11,12 @@ body{
   padding:0px;
   margin:0px;
   font-family: 'Poppins', sans-serif;
-  
-
+  background: #8080800d;
 }
 header.header-top {
   box-shadow: 0 0 8px 1px rgb(0 0 0 / 20%);
   padding-bottom: 12px;
-  
+  background-color: white;
 }
 .mySlides {
     display: none;
@@ -41,16 +40,18 @@ img {
 }
 
 .logo {
-  width: 16%;
+  width: 12%;
   float: left;
   height: 42px;
 }
 
+
+
 .logo i {
   font-size: 30px;
   text-align: center;
-  padding: 10px;
-
+  padding: 10px 0px 10px 10px;
+  color: orange;
 }
 
 .web-name {
@@ -60,8 +61,8 @@ img {
 }
 .web-name h3 {
   font-size: 17px;
-  padding: 0px 5px;
-  padding-top: 20px;
+  padding: 0px 0px;
+  padding-top: 14px;
 }
 
 .chat-link {
@@ -69,7 +70,7 @@ img {
   float: right;
   height: 17px;
   padding: 0px 10px;
-  padding-top:20px;
+  padding-top: 14px;
 }
 .chat-link a {
   font-size: 14px;
@@ -105,13 +106,13 @@ img {
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 10px;
+  width: 10px;
   margin: 0 2px;
   background-color: #ff0000a1;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
+  transition: background-color .6s ease;
 }
 .dot-slider {
   margin-top: 5px;
@@ -184,9 +185,9 @@ a{
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 0.8s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 0.8s;
 }
 
 @-webkit-keyframes fade {
@@ -221,25 +222,17 @@ a{
   flex-wrap: wrap;
 }
 
-.card-01{
-  
-position: relative;
-  
-flex: 1;
-  
-max-width: 455px;
-  
-margin-top: 15px;
-  
-float: left;
-  
-height: 100px;
-  
-cursor: pointer;
-  
-border-radius: 5px;
-  
-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+.card-01{ 
+  position: relative;
+  flex: 1; 
+  max-width: 455px;  
+  margin-top: 15px; 
+  float: left; 
+  height: 100px; 
+  cursor: pointer;  
+  background-color: white; 
+  border-radius: 5px; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .card-02{
@@ -252,7 +245,6 @@ box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
-
 
 @media (max-width:800px){
   .card-01{
@@ -290,11 +282,39 @@ box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 .serviceicons a{
   font-size:40px;
-  color: orange;
+  /* color: orange; */
   display:block;
   margin-top:24px;
   float:right;
+  width: 60px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 35px;
 }
+a.bg1{
+  background-color: #9ae1ff;
+  color: white;
+}
+a.bg2 {
+  color: white;
+  background-color: #f9e220;
+}
+
+a.bg3 {
+  color: white;
+  background-color: aqua;
+}
+
+a.bg4 {
+  color: white;
+  background-color: #ca35e5a6;
+}
+
+a.bg5 {
+  background-color: deeppink;
+  color: white;
+}
+
 .two{
   color:red;
 }
@@ -352,7 +372,7 @@ section.footer-menu {
   overflow: hidden;
   display: flex;
   flex-wrap: wrap;
-  align-content: center;
+  margin: auto;
 }
 .menuwrapper ul li {list-style: none;float: left;text-align: center;width: 68px;}
 
